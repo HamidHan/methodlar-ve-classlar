@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace paramatrelimethodlarvenomralmethodlar
 {
@@ -34,31 +29,45 @@ namespace paramatrelimethodlarvenomralmethodlar
 
             public void topla(int a, int b)
             {
-                
-                Console.WriteLine(a+b);
+
+                Console.WriteLine(a + b);
             }
 
             public void ustal(int a, int b)
             {
 
-                for(int i = 1; i < b; i++)
+                for (int i = 1; i < b; i++)
                 {
-                    a *= a; 
+                    a *= a;
                 }
-               Console.WriteLine(a);
+                Console.WriteLine(a);
             }
-            static void Main(string[] args)
+
+            public void yazDizi(int[] dizi)
             {
-                matematik mt = new matematik();
-                // bir sınıfı eklediğimizde .net framework içerisindeki tüm sınıfları kullanabiliriz.
-                string a = "Hello";
-                //mt.yaz2(a);
-                //mt.yaz3(a, tekrar);
-                mt.ustal(5, 2);
-                Console.ReadLine();
-
-
+                //diziler referans tiptir.
+                //dizileri foreach ile dönebiliriz.
+                //dizileri dönerken dizi.Length kullanabiliriz.
+                //dizilleri yazdırma
+                foreach (var item in dizi)
+                {
+                    Console.WriteLine(item);
+                }
             }
         }
+        static void Main(string[] args)
+        {
+            matematik mt = new matematik();
+            // bir sınıfı eklediğimizde .net framework içerisindeki tüm sınıfları kullanabiliriz.
+            string a = "Hello";
+            int[] dizim = { 10, 20, 30, 40, 50 };
+            //mt.yaz2(a);
+            //mt.yaz3(a, tekrar);
+            //mt.ustal(5, 2);
+            mt.yazDizi(dizim);
+            Console.ReadLine();
+        }
+
     }
 }
+
