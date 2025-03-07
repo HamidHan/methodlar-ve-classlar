@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ConsoleApp6
 {  
@@ -40,12 +41,18 @@ namespace ConsoleApp6
 
 
     class matematik
-    { 
-    
+    {
+
+        public void yaz()
+        {
+            Console.WriteLine("işlem");
+        }
     }
 
     internal class Program
     {
+
+
         /*
         static int a;
 
@@ -62,17 +69,23 @@ namespace ConsoleApp6
         } */
         static void Main(string[] args)
         {
-        personel p = new personel();
+             /*  personel p = new personel();
             p.id = 5;
-            p.name= "Hamid Han";
+            p.name = "Hamid Han";
             p.surname = "Doğdu";
             p.Age = 19;
             p.adsoyad();
-            string y=p.adsoyad1();
-            int hesap=p.toplam();
+            string y = p.adsoyad1();
+            int hesap = p.toplam();
             p.personelyaz();
-            Console.WriteLine(y+hesap);
-            Console.ReadLine();
+            Console.WriteLine(y + hesap);
+            Console.ReadLine(); */
+
+
+            matematik mt = new matematik();
+
+
+         
         }
         //methods
         //static /değil , geri dönüş tipi veritipi/void,methodun adı(parametreler alacağı yerler)

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp6", "ConsoleApp6\ConsoleApp6.csproj", "{013322BF-3F2C-4F86-9CF4-4B0266017C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paramatrelimethodlarvenomralmethodlar", "paramatrelimethodlarvenomralmethodlar\paramatrelimethodlarvenomralmethodlar.csproj", "{4E4A4F00-7A8D-4976-BECF-0AF90066DF4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{013322BF-3F2C-4F86-9CF4-4B0266017C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{013322BF-3F2C-4F86-9CF4-4B0266017C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{013322BF-3F2C-4F86-9CF4-4B0266017C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{013322BF-3F2C-4F86-9CF4-4B0266017C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4A4F00-7A8D-4976-BECF-0AF90066DF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4A4F00-7A8D-4976-BECF-0AF90066DF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4A4F00-7A8D-4976-BECF-0AF90066DF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4A4F00-7A8D-4976-BECF-0AF90066DF4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
