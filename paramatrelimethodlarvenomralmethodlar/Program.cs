@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace paramatrelimethodlarvenomralmethodlar
 {
@@ -54,6 +55,13 @@ namespace paramatrelimethodlarvenomralmethodlar
                     Console.WriteLine(item);
                 }
             }
+
+            public long topla2(int s1,int s2)
+            { 
+                int toplam= s1 + s2;
+                return toplam;
+
+            }
         }
         static void Main(string[] args)
         {
@@ -64,7 +72,8 @@ namespace paramatrelimethodlarvenomralmethodlar
             //mt.yaz2(a);
             //mt.yaz3(a, tekrar);
             //mt.ustal(5, 2);
-            mt.yazDizi(dizim);
+            //mt.yazDizi(dizim);
+            Console.WriteLine(mt.topla2(5,6));
             Console.ReadLine();
         }
 
