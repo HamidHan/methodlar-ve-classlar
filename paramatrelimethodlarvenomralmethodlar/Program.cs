@@ -29,14 +29,32 @@ namespace paramatrelimethodlarvenomralmethodlar
 
                 }
             }
+
+
+
+            public void topla(int a, int b)
+            {
+                
+                Console.WriteLine(a+b);
+            }
+
+            public void ustal(int a, int b)
+            {
+
+                for(int i = 1; i < b; i++)
+                {
+                    a *= a; 
+                }
+               Console.WriteLine(a);
+            }
             static void Main(string[] args)
             {
                 matematik mt = new matematik();
                 // bir sınıfı eklediğimizde .net framework içerisindeki tüm sınıfları kullanabiliriz.
                 string a = "Hello";
-                int tekrar=Convert.ToInt32(Console.ReadLine());
-                mt.yaz2(a);
-                mt.yaz3(a, tekrar);
+                //mt.yaz2(a);
+                //mt.yaz3(a, tekrar);
+                mt.ustal(5, 2);
                 Console.ReadLine();
 
 
